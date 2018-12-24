@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/dynamic_shortcut"
+        android:textColor="@color/colorSecondryText"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="addDynamicShortcuts"
+        android:text="@string/add_dynamic_shortcuts"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/update_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="updateDynamicShortcuts"
+        android:text="@string/update_dynamic_shortcuts"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/delete_dynamic_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorPrimary"
+        android:onClick="deleteDynamicShortcuts"
+        android:text="@string/delete_dynamic_shortcuts"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/pinned_shortcut"
+        android:textColor="@color/colorSecondryText"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_pinned_shortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="addPinnedShortcuts"
+        android:text="@string/add_pinned_shortcuts"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+</LinearLayout>
